@@ -1,0 +1,123 @@
+/* Color scheme: Light beige/yellow background, orange accents, dark blue text */
+body {
+    background-color: #FFF8E1;
+    font-family: 'Arial', sans-serif;
+    color: #0D1B2A;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFCC80; /* Soft orange */
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo-img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-style: italic;
+    color: #0D1B2A;
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #0D1B2A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #FF9800;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #FF9800;
+    text-align: center;
+}
+
+.intro-video {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.2em;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.delay-1 {
+    animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.timeline {
+    text-align: center;
+}
+
+.timeline button {
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.timeline button:hover {
+    transform: scale(1.05);
+}
+
+.phase-content {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: #FFCC80;
+    border-radius: 10px;
+}
+
+.phase-content.active {
+    display: block;
+}
+
+.social-links a {
+    color: #0D1B2A;
+    font-weight: bold;
+}
+
+.social-links p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #FFCC80;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
