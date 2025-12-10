@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dad Jokes AI - Hilarious AI-powered dad jokes and animations!">
+    <title>Dad Jokes AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Intro Overlay -->
+    <div id="intro-overlay">
+        <div class="intro-content">
+            <img src="https://i.imgur.com/8eY0w9J.png" alt="Dad Character" class="intro-character">
+            <div id="speech-bubble" class="speech-bubble">Loading joke...</div>
+        </div>
+    </div>
+
+    <!-- Main Site (hidden until intro finishes) -->
+    <div id="main-site" class="hidden">
+        <header>
+            <img src="https://i.imgur.com/8eY0w9J.png" alt="Dad Jokes AI Character" class="header-character">
+            <h1>Dad Jokes AI</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#mission">Mission</a>
+                <a href="#generator">AI Generator</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <h2>Welcome to Dad Jokes AI!</h2>
+            <p class="tagline">Groan-worthy dad jokes meet cutting-edge AI animation!</p>
+            <p class="daily-joke"><strong>Daily Dad Joke:</strong> <span id="daily-joke-text"></span></p>
+
+            <!-- Social Feed Area - Replace with a third-party widget embed code -->
+            <div class="social-feed-placeholder">
+                <h3>Live Dad Joke Feed from Social Media</h3>
+                <p>Follow us and see the latest AI dad joke videos!</p>
+                <div class="social-links">
+                    <p>TikTok: <a href="https://www.tiktok.com/@dadjokesai" target="_blank">@dadjokesai</a></p>
+                    <p>X (Twitter): <a href="https://x.com/dadjokesai" target="_blank">@dadjokesai</a></p>
+                    <p>Instagram: <a href="https://instagram.com/dadjokesai" target="_blank">@dadjokesai</a></p>
+                    <p>Facebook: <a href="https://facebook.com/dadjokesai" target="_blank">Dad Jokes AI</a></p>
+                </div>
+                <p><em>Tip: Use a free tool like Tagembed or Elfsight to embed a combined live feed here!</em></p>
+            </div>
+        </section>
+
+        <!-- Other sections (About, Mission, etc.) remain the same as before -->
+        <!-- (Paste the previous About, Mission, Generator, Contact sections here for brevity) -->
+
+        <footer>
+            <p>© 2025 Dad Jokes AI • Made with ❤️ and endless puns</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
